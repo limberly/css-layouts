@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #faf1e4;
+  font-family: "Lato", sans-serif;
+  color: #96b6c5;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 10vh;
+  color: #614bc3;
+}
+
+.container {
+  background-color: #fbe7cb;
+  display: flex;
+  /* width: 80vw; */
+  height: 40vh;
+  margin: 10vh auto;
+  justify-content: space-around;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  color: #614bc3;
+}
+
+.role {
+  font-size: 1.5rem;
+}
