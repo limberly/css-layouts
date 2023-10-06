@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #faf1e4;
+  font-family: "Lato", sans-serif;
+  color: #96b6c5;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  text-align: center;
+  /* padding-top: 10vh; */
+  color: #614bc3;
+}
+
+.container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card {
+  width: 40vw;
+  background-color: #f7e0c0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 2rem;
+  padding: 1rem 3rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  flex-basis: 40%;
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: none;
+  background-color: #614bc3;
+
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+.btn:link,
+.btn:visited {
+  color: #f7e0c0;
+}
+
+.btn:hover {
+  background-color: rgba(97, 75, 195, 0.8);
+}
