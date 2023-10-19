@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #faf1e4;
+  font-family: "Lato", sans-serif;
+  color: #96b6c5;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  color: #614bc3;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.heading-third {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  width: 70vw;
+  background-color: #614bc3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-content {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
